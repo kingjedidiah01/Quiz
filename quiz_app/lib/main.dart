@@ -7,12 +7,11 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
+// This widget is the root of the application.
   @override
   Widget build(BuildContext context) {
-    var quizApp;
     return MaterialApp(
-      title: quizApp,
+      title: 'quizApp',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
       home: const welcomeScreen(),
